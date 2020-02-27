@@ -31,14 +31,14 @@
     }
 
     /*
-     * 2. Sort an array of integers.
+     * 2. Sort a list of integers.
      * Test Cases:
      * Input: [2,4,5,1,3,1]     Output: [1,1,2,3,4,5]
      * Input: [5,4,3,2,1]     Output: [1,2,3,4,5]
      *
      * Don't use the sort() method... that would be lame.
     */
-    public static Integer[] sortArray( Integer[] intList ) {
+    public static List<Integer> sortList( List<Integer> intList ) {
 
     }
 
@@ -55,13 +55,13 @@
 
     /*
      * 4. Rotate left
-     * Given an array, array, and an integer, n, rotate the values in array left n times and return array
+     * Given a list, list, and an integer, n, rotate the values in list left n times and return list
      * Test Cases:
      * Input: [1,2,3,4,5], 1    Output: [2,3,4,5,1]
      * Input: [1,2,3,4,5], 6    Output: [2,3,4,5,1]
      * Input: [1,2,3,4,5], 3    Output: [4,5,1,2,3]
     */
-    public static Integer[] rotateLeftNTimes( Integer[] array, Integer n) {
+    public static List<Integer> rotateLeftNTimes( List<Integer> nList, Integer n) {
 
     }
 
